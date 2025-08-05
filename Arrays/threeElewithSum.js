@@ -41,7 +41,7 @@ function hasTrioWithSum(arr, target) {
       if (arr[j] > arr[j + 1]) {
         let temp = arr[j];
         arr[j] = arr[j + 1];
-        ar r[j + 1] = temp;
+        arr[j + 1] = temp;
       }
     }
   }
