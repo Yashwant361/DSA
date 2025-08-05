@@ -20,6 +20,7 @@ for (let i = 0; i <= arr.length - 1; i++) {
     //     console.log(`alternative elements : ${arr[i]}`);
     // }
 
+     // this logic , divides the index whoes are even 
     if(i %2 ===0){
         console.log(`Alternative elements :${arr[i]}, indexes ${i}`);
     }
