@@ -6,9 +6,12 @@ function MinAndMax(arr) {
     let Min  = Number.MAX_SAFE_INTEGER; // set largest number
 
     for (let i = 0; i < arr.length; i++) {
+        // code for maximum number
         if (arr[i] > Max) {
             Max = arr[i];
         }
+
+        // code for Minimum number
         if (arr[i] < Min) {
             Min = arr[i];
         }

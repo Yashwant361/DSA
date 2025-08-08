@@ -1,5 +1,4 @@
-arr = [3, 5, 2, 8, 11];
-let target = 10
+ 
 
 function hasPairWithSum(arr, target) {
     for (let i = 0; i < arr.length; i++) {

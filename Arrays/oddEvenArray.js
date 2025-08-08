@@ -8,6 +8,7 @@ let oddIndex  = 0;
 let evenIndex = 0; 
 
  for(let i = 0 ; i < arr.length ; i++){
+    // In this code we , divide the elements of an array not indexs
     if( arr[i] % 2 === 0){
         evenArr[evenIndex] = arr[i];
         evenIndex++;
