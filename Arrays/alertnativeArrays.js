@@ -11,15 +11,9 @@ let arr = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
  2 => 7
  1 => 8 even index
  0 => 9
-
 */
 
 for (let i = 0; i <= arr.length - 1; i++) {
-    // this logic , divides the elements who are even , not index
-    // if (arr[i] % 2 !== 0) {
-    //     console.log(`alternative elements : ${arr[i]}`);
-    // }
-
      // this logic , divides the index whoes are even 
     if(i %2 ===0){
         console.log(`Alternative elements :${arr[i]}, indexes ${i}`);
