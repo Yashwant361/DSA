@@ -3,10 +3,10 @@ let str = 'qwerty';
 let strArr = str.split('');// convert string into array
 
 function revStr(strArr){
-let orgStr = ' ' ; // store the reverse string
+let revStr = ' ' ; // store the reverse string
 
 for (let i = str.length - 1; i >= 0; i--) {
-    orgStr += strArr[i];
+    revStr += strArr[i];
 
 }
 return orgStr;
