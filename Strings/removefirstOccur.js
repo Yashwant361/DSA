@@ -16,6 +16,5 @@ function removeChar(str, charToRemove) {
 
   return result;
 }
-}
 
 console.log(removeChar(str, 'a'));

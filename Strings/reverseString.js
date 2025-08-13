@@ -9,7 +9,7 @@ for (let i = str.length - 1; i >= 0; i--) {
     revStr += strArr[i];
 
 }
-return orgStr;
+return revStr;
 }
 
 let str1 = revStr(strArr);
