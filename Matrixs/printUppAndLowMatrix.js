@@ -4,7 +4,7 @@ let matrix = [
     [7, 8, 9]
 ];
 
-function printUpperLower(matrix) {
+function printUpper(matrix) {
 
     console.log("Upper Triangle:");
    for (let i = 0; i <  matrix.length; i++) {
@@ -18,6 +18,21 @@ function printUpperLower(matrix) {
         console.log(row);
     }
 }
+    function printLower(matrix) {
+    console.log("Lowwer Triangle");
+    for (let i = 0; i <  matrix.length; i++) {
+        let row = "";
+        for (let j = 0; j <  matrix.length; j++) {
+            if (i >= j){
+                 row += matrix[i][j] + " ";
+            }
+            else row += "0 ";  // replace with 0 for clear triangle view
+        }
+        console.log(row);
+    }
+}
 
-printUpperLower(matrix);
+printUpper(matrix);
+console.log();
+printLower(matrix);
 
