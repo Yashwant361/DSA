@@ -8,7 +8,7 @@ function isPrime(num) {
         console.log("Not prime")
     }
     else {
-        for (let i = 2; i * i <= num; i++) {
+        for (let i = 2; i < Math.ceil(num/2); i++) {
             if (num % i === 0) {
                 flag = false;
                 break;
