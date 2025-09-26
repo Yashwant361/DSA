@@ -13,7 +13,7 @@ function checkEvenAndOdd(num) {
         }
         num = Math.trunc(num / 10);
     }
-    return evenSum === oddSum;g
+    return evenSum === oddSum; // boolean return
 
 }
 
