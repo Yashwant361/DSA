@@ -14,9 +14,10 @@ function isArmStrong(num) {
 
 function main() {
     let nums = [371, 153, 9474, 123, 407, 0, 1, 9475];
-    for (let num of nums) {
+    for (let i = 0; i < nums.length; i++) {
+        let num = nums[i];
         console.log(`${num} -> ${isArmStrong(num) ? "Armstrong" : "Not Armstrong"}`);
     }
-}
 
+}
 main();
