@@ -12,18 +12,23 @@
 // // i--;
 
 
-let arr = [9,8,6,2];
+// let arr = [9,8,6,2];
+// let arr = [1, 4, 3, 2, 6, 5];
+let arr = [4, 5, 1, 2];
 
-let firstPointer = 0;
-let lastPointer = arr.length-1;
-for (let i = 0; i < arr.length; i++) {
-    if(firstPointer < lastPointer){
-        let temp = arr[firstPointer];
-        arr[firstPointer]= arr[lastPointer];
-        arr[lastPointer] = temp;
+function reverseArray(arr) {
+    let firstPointer = 0; 
+    let lastPointer = arr.length - 1; 
+
+    for (let i = 0; i < arr.length; i++) {
+        if (firstPointer < lastPointer) {
+            let temp = arr[firstPointer]; 
+            arr[firstPointer] = arr[lastPointer]; 
+            arr[lastPointer] = temp; 
+        }
+        firstPointer++;
+        lastPointer--;
     }
-    firstPointer ++;
-    lastPointer--;
-    
+    return arr;
 }
-console.log(arr)
+console.log(reverseArray(arr))

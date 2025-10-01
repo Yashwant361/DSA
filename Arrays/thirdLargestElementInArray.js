@@ -17,6 +17,7 @@ function thirdLargestElement(arr) {
         }
         // find SecLargest elements
         else if (arr[i] > secLargest && arr[i] < largest) {
+            // thirdLargest = secLargest
             secLargest = arr[i];
         }
         else if (arr[i] > thirdLargest && arr[i] < secLargest) {
