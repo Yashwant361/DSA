@@ -14,6 +14,7 @@ function rotateArray(arr, d) {
     //Step1: reverse first d elements [1,2,3]
     reverse(arr, 0, d - 1);
 
+
     // Step2: reverse remaining elements[4,5,6]
     reverse(arr, d, n - 1);
 
