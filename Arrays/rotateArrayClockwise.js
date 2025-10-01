@@ -3,6 +3,7 @@ function reverse(arr, start, end) {
         let temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
+        
         start++;
         end--;
     }
