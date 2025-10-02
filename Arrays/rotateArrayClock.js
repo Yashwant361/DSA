@@ -12,13 +12,13 @@ function rotateArray(arr, d) {
     let n = arr.length;
     d = d % n;
 
-    //Step1: reverse first d elements [1,2,3]
-    reverse(arr, n - d, n-1);
+     // Step1: reverse last d elements
+    reverse(arr, n - d, n - 1);
 
-    // Step2: reverse remaining elements[4,5,6]
+    // Step2: reverse first n-d elements
     reverse(arr, 0, n - d - 1);
 
-    //Step3: reverse enitre array
+    // Step3: reverse entire array
     reverse(arr, 0, n - 1);
 
     return arr;
