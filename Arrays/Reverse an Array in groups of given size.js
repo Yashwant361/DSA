@@ -1,7 +1,7 @@
 function reverseArrayInGroup(arr,k) {
     let n = arr.length;
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i+=k) {
         let fp = i;
         let lp = Math.min(i + k - 1, n - 1); // 2,7 -> 2
 
