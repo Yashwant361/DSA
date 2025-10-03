@@ -14,7 +14,8 @@
 
 // let arr = [9,8,6,2];
 // let arr = [1, 4, 3, 2, 6, 5];
-let arr = [4, 5, 1, 2];
+// let arr = [4, 5, 1, 2];
+let arr = [8, 2, 3, 4, 5, 6, 7, 1];
 
 function reverseArray(arr) {
     let firstPointer = 0; 
